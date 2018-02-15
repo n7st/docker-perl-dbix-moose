@@ -1,4 +1,4 @@
-FROM plenv:5.26.1
+FROM jmmills/plenv:5.26.1
 
 RUN cpanm install \
         Dist::Zilla \
